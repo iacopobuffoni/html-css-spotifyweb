@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.main-container .right-main h2, .main-container .right-main h4, .main-topbar a {
+    color: white;
+}
+
+.main-container .right-main h6, .call-to-action a, .main-container .right-main h5 {
+    color: #7b7e82;
+    text-decoration: none;
+}
+
+.main-container .right-main h2,.main-container .right-main h5 {
+    padding-left: 15px;
+}
+
+.main-container .right-main h2, .album-artist h4, .album-artist img {
+    margin-bottom: 10px;
+}
+
+.album-artist {
+    text-align: center;
+}
+
+.album-artist a, .main-topbar a {
+    text-decoration: none;
+}

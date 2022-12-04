@@ -1,0 +1,62 @@
+@media screen and (max-width: 1100px) {
+
+    .albums-row {
+        flex-wrap: wrap;
+    }
+    
+    .album-artist {
+        width: calc(100% / 4);
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .album-artist {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .main-container {
+        width: 100%;
+    }
+    
+    .left-main {
+        width: 50px;
+    }
+
+    .right-main {
+        width: calc(100% - 50px);
+    }
+
+    .small-logo {
+        display: block;
+        width: 30px;
+    }
+
+    .normal-logo {
+        display: none;
+
+    }
+
+    .left-main-top-menu span {
+        display: none;
+    }
+
+    .logo {
+        padding: 5px 10px;
+        border: none;
+    }
+
+    .playlist {
+        display: none;
+        border: none;
+    }
+
+    .left-main-top-menu a {
+        border: none;
+        padding: 5px 10px;
+    }
+    
+}

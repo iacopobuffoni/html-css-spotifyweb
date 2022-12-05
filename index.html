@@ -7,12 +7,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">       
         <title> Spotify </title>
     </head>
-    <body class="debug">
+    <body>
         <!-- INIZIO MAIN -->
         <main>
             <div class="main-container flexbox">
@@ -138,6 +139,7 @@
                                     <img src="img/metal_lifting.jpg" alt="">
                                     <h4> Heavy Metal </h4>
                                     <h6> Subtitle </h6>
+                                    <i class="fa-regular fa-circle-play hover-effect"></i>
                                 </a>
                             </div>
                             <div class="album-artist">
@@ -227,18 +229,75 @@
         <footer>
             <div class="footer-container flexbox">
                 <!-- INIZIO PARTE SINISTRA FOOTER-->
-                <div class="left-footer">
-                    LEFT
+                <div class="left-footer flexbox">
+                    <div class="left-footer-album">
+                        <img src="img/sinister.jpeg" alt="">
+                    </div>
+                    <div class="left-footer-album-title">
+                        <h2> Sinister </h2>
+                        <h6> Brano Nome </h6>
+                    </div>
+                    <div class="left-footer-icons">
+                        <a href="#">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-regular fa-folder"></i>
+                        </a>
+                    </div>
                 </div>
                 <!-- FINE PARTE SINISTRA FOOTER -->
                 <!-- INIZIO PARTE CENTRALE FOOTER-->
                 <div class="center-footer">
-                    CENTER
+                    <div class="center-footer-top">
+                        <ul class="center-footer-top-controls flexbox">
+                            <li>
+                                <i class="fa-solid fa-shuffle"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-backward-step"></i>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-play play"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-forward-step"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-repeat"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="center-footer-bottom flexbox">
+                        <div class="center-footer-bottom-time">
+                            0:25
+                        </div>
+                        <div class="center-footer-bottom-bar">
+                            <div class="center-footer-bottom-bar-quantity"></div>
+                        </div>
+                        <div class="center-footer-bottom-time">
+                            4.35
+                        </div>
+                    </div>
                 </div>
                 <!-- FINE PARTE CENTRALE FOOTER -->
                 <!-- INIZIO PARTE DESTRA FOOTER-->
                 <div class="right-footer">
-                    RIGHT
+                    <ul class="right-footer-controls flexbox">
+                        <li>
+                            <i class="fa-solid fa-bars"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-display"></i>
+                        </li>
+                        <li class="right-footer-controls-volume flexbox">
+                            <i class="fa-solid fa-volume-high"></i>
+                            <div class="center-footer-bottom-bar">
+                                <div class="center-footer-bottom-bar-quantity"></div>
+                            </div>
+                        </li>
+
+                    </ul>
                 </div>
                 <!-- FINE PARTE DESTRA FOOTER -->
             </div>

@@ -24,7 +24,7 @@ main {
     color: white;
 }
 
-.right-main h6, .call-to-action a, .right-main h5, .left-main-bottom a {
+.right-main h6, .call-to-action a, .right-main h5, .left-main-bottom a, .left-footer a {
     color: #7b7e82;
     text-decoration: none;
 }
@@ -43,4 +43,8 @@ main {
 
 .album-artist a, .main-topbar a {
     text-decoration: none;
+}
+
+.left-main-top-menu a, .playlist, .left-main-bottom, .upgrade, .call-to-action, .left-footer-album-title h2 {
+    font-size: 12px;
 }
